@@ -51,16 +51,16 @@ if ingredients_list:
 
 
 
-st.write(
-    """
-    Step-3 : Do not shy away for some add-ons\n
+# st.write(
+#     """
+#     Step-3 : Do not shy away for some add-ons\n
 
-""")
-option = st.selectbox(
-    "Why not some add-ons ?",
-    ("Nuts", "Peanut Butter", "Strawberry Squash","Caramel","Orange squash"))
+# """)
+# option = st.selectbox(
+#     "Why not some add-ons ?",
+#     ("Nuts", "Peanut Butter", "Strawberry Squash","Caramel","Orange squash"))
 
-st.write("You selected:", option)
+# st.write("You selected:", option)
 
 st.write(
     """
