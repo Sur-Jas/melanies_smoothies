@@ -5,17 +5,17 @@ from snowflake.snowpark.functions import col
 
 # Write directly to the app
 st.title(":cup_with_straw: Customise Your Smoothie :cup_with_straw:")
-st.write(
-    """
-    Step-1 : Choose the base
-    """
-)
+# st.write(
+#     """
+#     Step-1 : Choose the base
+#     """
+# )
 
-option = st.selectbox(
-    "What type of milk would you like us to add?",
-    ("Regular", "Skimmed", "Soy milk","Almond Milk","Oat milk"))
+# option = st.selectbox(
+#     "What type of milk would you like us to add?",
+#     ("Regular", "Skimmed", "Soy milk","Almond Milk","Oat milk"))
 
-st.write("You selected:", option)
+# st.write("You selected:", option)
 
 
 import streamlit as st
